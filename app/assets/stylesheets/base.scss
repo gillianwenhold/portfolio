@@ -1,0 +1,133 @@
+/* ------------------ FONT FORMATTING ------------------ */
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Thin.otf");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-Medium.otf");
+  font-weight: medium;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/poppins/Poppins-SemiBold.otf");
+  font-weight: 700;
+}
+
+
+
+/* ------------------ GENERAL STYLING ------------------ */
+
+body {
+  margin: 0;
+  background-color: #FFFFFF;
+}
+
+h1 {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+
+p {
+  color: #000000;
+  font-family: "Poppins";
+  font-weight: 300;
+  letter-spacing: .05em;
+}
+
+.container {
+  padding: 4em 6em;
+ }
+
+ .row {
+  display: flex;
+}
+
+.col-1 {
+  width: 35%;
+}
+
+.col-2 {
+  width: 65%;
+}
+
+/* ------------------ NAVBAR ------------------ */
+
+.navbar {
+  padding: 1em 2em;
+  background-color: #000000;
+  color: #FFFFFF;
+  position: fixed-top;
+  font-family: "Poppins";
+ }
+
+ .navbar-head {
+  color: #FFFFFF;
+  font-size: 1.8em;
+  padding-left: .3em;
+  padding-bottom: 0em;
+  font-weight: medium;
+  text-decoration: none;
+ }
+
+.navbar-text {
+  color: #FFFFFF;
+  font-size: 1.3em;
+  padding: .6em .5em 0em .5em;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.navbar-text-small {
+  font-size: .8em;
+  padding-left: 1em;
+  padding-bottom: .2em;
+  margin-top: -.5em;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+}
+
+.navbar-text:hover {
+  color: #1F7A8C;
+}
+
+.navbar-head:hover {
+  color: #1F7A8C;
+}
+
+/* ------------------ BACKGROUNDS ------------------ */
+
+.background {
+  background-image: image-url('laptop.jpeg');
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar-title {
+  color: #FFFFFF;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 4em;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.layer {
+  background-color: rgba(14, 58, 67, 0.7);
+  position: absolute;
+  height: 500px;
+  width: 100%;
+}
