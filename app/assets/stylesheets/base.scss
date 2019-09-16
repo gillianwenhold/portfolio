@@ -46,8 +46,12 @@ p {
 }
 
 .container {
-  padding: 4em 6em;
- }
+  padding: 6em 10em;
+}
+
+.centered-container {
+  text-align: center;
+}
 
  .row {
   display: flex;
@@ -61,7 +65,7 @@ p {
   width: 65%;
 }
 
-/* ------------------ NAVBAR ------------------ */
+/* ------------------ NAVBAR & FOOTER ------------------ */
 
 .navbar {
   padding: 1em 2em;
@@ -89,6 +93,7 @@ p {
 }
 
 .navbar-text-small {
+  color: #FFFFFF;
   font-size: .8em;
   padding-left: 1em;
   padding-bottom: .2em;
@@ -105,6 +110,22 @@ p {
   color: #1F7A8C;
 }
 
+.footer {
+  width: 100%;
+  min-height: 5em;
+  bottom: 0px;
+  background-color: #000000;
+}
+
+.footer-text {
+  font-family: "Poppins";
+  color: #FFFFFF;
+  font-size: .8em;
+  float: right;
+  padding: 1.4em 3em;
+  font-weight: 200;
+  letter-spacing: 0.2em;
+}
 /* ------------------ BACKGROUNDS ------------------ */
 
 .background {
@@ -116,7 +137,7 @@ p {
   background-size: cover;
 }
 
-.navbar-title {
+.background-title {
   color: #FFFFFF;
   font-size: 3em;
   text-align: center;
@@ -125,9 +146,79 @@ p {
   letter-spacing: 0.15em;
 }
 
+.background-text {
+  color: #FFFFFF;
+  font-size: 1em;
+  font-weight: 300;
+  margin-top: -1em;
+  letter-spacing: 0.15em;
+  text-align: center;
+}
+
 .layer {
-  background-color: rgba(14, 58, 67, 0.7);
+  background-color: rgba(12, 48, 56, 0.75);
   position: absolute;
   height: 500px;
   width: 100%;
+}
+
+/* ------------------ TEXT & BUTTONS ------------------ */
+.title {
+  display: inline-block;
+  margin: 0;
+}
+
+.project-card {
+  margin-bottom: 5em;
+}
+
+.project-header {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins";
+  letter-spacing: .1em;
+  margin: 2em auto;
+  font-weight: 300;
+  color: #1F7A8C;
+  border: 2px solid #1F7A8C;
+  padding: .75em 1em;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.btn-project {
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Poppins";
+  letter-spacing: .1em;
+  font-weight: 300;
+  color: #1F7A8C;
+  margin: 0 1em;
+  border: 2px solid #1F7A8C;
+  padding: .5em;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.btn:hover {
+  background-color: #1F7A8C;
+  color: #FFF;
+}
+
+/* ------------------ MEDIA ------------------ */
+.headshot {
+  height: 150px;
+  border-radius: 50%;
+  float: right;
+  margin: 1em;
+}
+
+.video {
+  width: 80%;
+  margin: auto;
 }
