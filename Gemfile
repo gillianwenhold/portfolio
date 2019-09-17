@@ -1,23 +1,3 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@gillianwenhold
-Learn Git and GitHub without any code!
-Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
-
-
-Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Pulse  Community
-portfolio/Gemfile
-@gillianwenhold gillianwenhold Updated puma
-afcae6c 1 hour ago
-67 lines (54 sloc)  2.16 KB
-
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
