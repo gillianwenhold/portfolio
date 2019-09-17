@@ -27,5 +27,5 @@ production:
   encoding: utf8
   database: portfolio
   pool: 5
-  username: <%= ENV['PORTFOLIO_DATABASE_USER'] %>
-  password: <%= ENV['PORTFOLIO_DATABASE_PASSWORD'] %>
+  username: deploy
+  password: TabulaRasa20!
