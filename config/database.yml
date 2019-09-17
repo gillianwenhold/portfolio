@@ -25,7 +25,7 @@ production:
   host: localhost
   adapter: postgresql
   encoding: utf8
-  database: portfolio
+  database: deploy
   pool: 5
   username: deploy
   password: TabulaRasa20!
