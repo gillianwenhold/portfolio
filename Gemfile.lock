@@ -230,7 +230,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
-  pg
+  pg (= 1.1.4)
   postgres-pr
   puma
   rails (~> 5.2.3)
