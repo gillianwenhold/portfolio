@@ -13,6 +13,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 gem "postgres-pr"
+gem "pg"
 # gem 'mini_racer', platforms: :ruby
 gem 'puma'
 # Use CoffeeScript for .coffee assets and views
