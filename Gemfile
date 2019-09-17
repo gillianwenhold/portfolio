@@ -1,3 +1,23 @@
+Skip to content
+
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@gillianwenhold
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+Code  Issues 0  Pull requests 0  Projects 0  Wiki  Security  Pulse  Community
+portfolio/Gemfile
+@gillianwenhold gillianwenhold Updated puma
+afcae6c 1 hour ago
+67 lines (54 sloc)  2.16 KB
+
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
@@ -7,8 +27,6 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.3'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
-# Use Puma as the app server
-gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -56,6 +74,12 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+end
+
+
+group :production do
+  gem 'pg'
+  gem 'puma', '~> 3.11'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

@@ -27,5 +27,5 @@ production:
   encoding: utf8
   database: portfolio
   pool: 5
-  username: <%= ENV['APPNAME_DATABASE_USER'] %>
-  password: <%= ENV['APPNAME_DATABASE_PASSWORD'] %>
+  username: <%= ENV['PORTFOLIO_DATABASE_USER'] %>
+  password: <%= ENV['PORTFOLIO_DATABASE_PASSWORD'] %>
