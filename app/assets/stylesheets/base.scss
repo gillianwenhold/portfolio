@@ -1,25 +1,25 @@
 /* ------------------ FONT FORMATTING ------------------ */
 @font-face {
   font-family: "Poppins";
-  src: url("poppins/Poppins-Thin.otf");
+  src:font-url("poppins/Poppins-Thin.otf");
   font-weight: 200;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("poppins/Poppins-Light.otf");
+  src:font-url("poppins/Poppins-Light.otf");
   font-weight: 300;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("poppins/Poppins-Medium.otf");
+  src:font-url("poppins/Poppins-Medium.otf");
   font-weight: medium;
 }
 
 @font-face {
   font-family: "Poppins";
-  src: url("poppins/Poppins-SemiBold.otf");
+  src:font-url("poppins/Poppins-SemiBold.otf");
   font-weight: 700;
 }
 
