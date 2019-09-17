@@ -34,13 +34,13 @@ body {
 
 h1 {
   color: #000000;
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
   font-weight: 700;
 }
 
 p {
   color: #000000;
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
   font-weight: 300;
   letter-spacing: .05em;
 }
@@ -72,7 +72,7 @@ p {
   background-color: #000000;
   color: #FFFFFF;
   position: fixed-top;
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
  }
 
  .navbar-head {
@@ -118,7 +118,7 @@ p {
 }
 
 .footer-text {
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
   color: #FFFFFF;
   font-size: .8em;
   float: right;
@@ -180,7 +180,7 @@ p {
 .btn {
   text-decoration: none;
   display: inline-block;
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
   letter-spacing: .1em;
   margin: 2em auto;
   font-weight: 300;
@@ -194,7 +194,7 @@ p {
 .btn-project {
   text-decoration: none;
   display: inline-block;
-  font-family: "Poppins";
+  font-family: "Poppins", "Helvetica", sans-serif;
   letter-spacing: .1em;
   font-weight: 300;
   color: #1F7A8C;
