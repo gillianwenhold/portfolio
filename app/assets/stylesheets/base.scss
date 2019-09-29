@@ -125,6 +125,7 @@ p {
   font-weight: 200;
   letter-spacing: 0.2em;
 }
+
 /* ------------------ BACKGROUNDS ------------------ */
 
 .background {
@@ -224,12 +225,16 @@ p {
 
 /* ------------------ MOBILE ------------------ */
 @media screen and (max-width: 600px) {
+  .container {
+    padding: 2em 2.5em;
+  }
   .navbar-text {
     font-weight: 300;
   }
 
   .navbar-text-small {
     font-weight: 300;
+    margin-left: -5px;
   }
 
   .footer-text {
@@ -237,6 +242,24 @@ p {
   }
 
   .layer {
-    height: 510px;
+    margin-top: -2px;
+    height: 502px;
+  }
+
+  .navbar-text {
+    margin-top: .3em;
+    font-size: .85em;
+  }
+
+  .navbar-head {
+    font-size: 1.2em;
+  }
+
+  .col-1 {
+    width: 50%;
+  }
+
+  .col-2 {
+    width: 50%;
   }
 }
