@@ -124,6 +124,7 @@ p {
   padding: 1.4em 3em;
   font-weight: 200;
   letter-spacing: 0.2em;
+  margin: 1em auto;
 }
 
 /* ------------------ BACKGROUNDS ------------------ */
@@ -272,5 +273,10 @@ p {
     float: none;
     text-align: center;
     padding-top: 2.5em;
+    margin: 0;
+  }
+
+  .footer {
+    margin-bottom: -10px;
   }
 }
