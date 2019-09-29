@@ -230,11 +230,12 @@ p {
   }
   .navbar-text {
     font-weight: 300;
+    margin-left: -10px;
   }
 
   .navbar-text-small {
     font-weight: 300;
-    margin-left: -5px;
+    margin-left: -15px;
   }
 
   .footer-text {
@@ -249,6 +250,7 @@ p {
   .navbar-text {
     margin-top: .3em;
     font-size: .85em;
+    margin-right: -10px;
   }
 
   .navbar-head {
@@ -271,6 +273,6 @@ p {
   .footer-text {
     float: none;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 2em;
   }
 }
