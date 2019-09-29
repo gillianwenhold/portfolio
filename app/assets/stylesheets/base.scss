@@ -157,7 +157,7 @@ p {
 .layer {
   background-color: rgba(12, 48, 56, 0.75);
   position: absolute;
-  height: 510px;
+  height: 500px;
   width: 100%;
 }
 
@@ -234,5 +234,9 @@ p {
 
   .footer-text {
     font-weight: 300;
+  }
+
+  .layer {
+    height: 510px;
   }
 }
