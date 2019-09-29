@@ -24,7 +24,6 @@
 }
 
 
-
 /* ------------------ GENERAL STYLING ------------------ */
 
 body {
@@ -158,7 +157,7 @@ p {
 .layer {
   background-color: rgba(12, 48, 56, 0.75);
   position: absolute;
-  height: 500px;
+  height: 510px;
   width: 100%;
 }
 
@@ -221,4 +220,19 @@ p {
 .video {
   width: 80%;
   margin: auto;
+}
+
+/* ------------------ MOBILE ------------------ */
+@media screen and (max-width: 600px) {
+  .navbar-text {
+    font-weight: 300;
+  }
+
+  .navbar-text-small {
+    font-weight: 300;
+  }
+
+  .footer-text {
+    font-weight: 300;
+  }
 }
